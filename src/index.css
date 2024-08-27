@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (max-width: 1023px) {
+    .video-items{
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 2.5rem;
+    }
+    .video-icon{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
